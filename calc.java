@@ -29,12 +29,12 @@ class Calc
     {
         int num1 = 5;
         int num2 = 10;
-        Calculator addition = new Calculator();
+        //Calculator addition = new Calculator();
         Calculator substraction = new Calculator();
         Calculator multiplication = new Calculator();
         Calculator division = new Calculator();
 
-        int result = addition.add(num1, num2);
+        int result = Calculator.add(num1, num2);
         int result2 = multiplication.multiply(num1, num2);
         int result3 = substraction.substract(num1, num2);
         int result4 = division.divide(num1, num2);
